@@ -1,0 +1,127 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: calibri;
+}
+
+a {
+    text-decoration: none;
+    color: #c0392b;
+}
+
+a:hover {
+    color: #e74c3c;
+}
+
+
+/*    ----   the design css for the header  ----   */
+
+.head {
+    padding: 0;
+    height: 77px;
+    width: 100%;
+    border-bottom: 1px solid #c0392b;
+    background-color: #ffffff;
+}
+
+#navigation {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#logo {
+    margin-top: 15px;
+}
+
+
+/* ---- the design css for the navigation ----   */
+
+ul {
+    height: 37px;
+    margin-top: 25px;
+    float: right;
+}
+
+ul li {
+    display: inline-table;
+    list-style-type: none;
+    margin: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #1d1d1d;
+    display: block;
+    padding: 7px;
+    width: 80px;
+    text-align: center;
+}
+
+ul li a:hover {
+    background-color: #c0392b;
+    color: #ffffff
+}
+
+
+/*    ----    the design css for the home page  ----   */
+
+#container {
+    width: 63%;
+    margin: 17px auto;
+}
+
+.reminder {
+    float: left;
+}
+
+.introduction {
+    font: 20px bold calibri;
+    color: #1d1d1d;
+    text-align: center;
+}
+
+
+/*    ----    the design css for the form  ----   */
+
+form {
+    margin-top: 70px;
+}
+
+.form {
+    float: right;
+    width: 300px;
+    margin-top: 60px;
+}
+
+.form .input-box {
+    margin: 20px 0;
+}
+
+.form .input-box input {
+    width: 100%;
+    font-size: 17px;
+    padding: 12px;
+    color: #777;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.form .input-box input:focus,
+.form .input-box input:valid {
+    border-bottom: 0.5px solid #c0392b;
+}
+
+.form .input-box input[type="submit"] {
+    border: none;
+    background: #c0392b;
+    color: #fff;
+    font-weight: bold;
+}
+
+.form .input-box input[type="submit"]:hover {
+    background: #e74c3c;
+}
