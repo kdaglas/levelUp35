@@ -66,10 +66,10 @@ ul li a:hover {
 }
 
 
-/*    ----    the design css for the form  ----   */
+/*    ----    the design css for the home page  ----   */
 
 #container {
-    width: 60%;
+    width: 63%;
     margin: 17px auto;
 }
 
@@ -92,8 +92,8 @@ form {
 
 .form {
     float: right;
-    width: 317px;
-    margin: 60px auto;
+    width: 300px;
+    margin-top: 60px;
 }
 
 .form .input-box {
@@ -126,3 +126,6 @@ form {
 .form .input-box input[type="submit"]:hover {
     background: #e74c3c;
 }
+
+
+/*    ----    the design css for the media queries  ----   */
