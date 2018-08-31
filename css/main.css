@@ -191,6 +191,68 @@ form {
 }
 
 
+/* ------ Most of the Smartphones Mobiles ------- */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    html,
+    body {
+        background-color: #D0D0FF;
+    }
+
+    /*    ----   media queries for the header  ----   */
+
+    .head {
+        height: 80px;
+        margin-bottom: 170px;
+    }
+    
+    #navigation {
+        width: 17%;
+        margin: 0 auto;
+    }
+    
+    ul {
+        margin-top: 35px;
+    }
+    
+    ul li {
+        display: block;
+        margin: 7px;
+    }
+    
+    ul li a {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    /*    ----    media queries for the home page  ----   */
+
+    #container {
+        width: 77%;
+        margin: 0 auto;
+    }
+
+    .reminder {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    /* ------ media queries for the form -------*/
+    
+    form {
+        margin-top: 30px;
+    }
+    
+    .form {
+        float: none;
+        width: 100%;
+    }
+    
+    
+}
+
+
 /* ---- Most of the Tablets, Ipads ----- */
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -248,6 +310,37 @@ form {
     .form {
         float: none;
         width: 100%;
+    }
+    
+}
+
+
+/* ---- Most of the laptops or desktops ----- */
+
+@media (min-width: 1025px) and (max-width: 1268px) {
+
+    /*    ----    media queries for the home page  ----   */
+
+    #container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .reminder {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    /* ------ media queries for the form -------*/
+    
+    form {
+        margin-top: 30px;
+    }
+    
+    .form {
+        margin: 17px auto;
+        float: none;
+        width: 40%;
     }
     
 }
