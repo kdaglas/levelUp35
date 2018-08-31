@@ -129,3 +129,61 @@ form {
 
 
 /*    ----    the design css for the media queries  ----   */
+
+/* On screens that are 600px wide or less, the menu links stack on top of each other */
+@media screen and (max-width: 600px) {
+    ul li a {
+      float: none;
+      width: 100%;
+    }
+}
+
+/* ------ Most of the Smartphones Mobiles -------*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    #navigation {
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    #logo {
+        float: center;
+        margin-top: 15px;
+    }
+    
+    ul {
+        float: none;
+        margin: 100px auto;
+    }
+    
+    ul li {
+        display: block;
+        list-style-type: none;
+        margin: 0;
+    }
+    
+    ul li a {
+        width: 100%;
+        text-align: center;
+    }
+
+    ul li a:hover {
+        background-color: #c0392b;
+        color: #ffffff
+    }
+
+    /* ------ media queries for the form -------*/
+    
+    form {
+        margin-top: 50px;
+    }
+    
+    .form {
+        float: none;
+        width: 100%;
+        margin-top: 100px;
+    }
+    
+    
+}
