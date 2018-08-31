@@ -4,22 +4,23 @@
 
 This is an app for issuing event tickets.
 
-### Assignment two
+### Assignment three
+---------------------------
 
-HTML/CSS Expected Output:
-———————————————-----
-- Create an app for issuing event tickets.
-- Start a new story for designing a Front End.
-- Edit your HTML document to include necessary meta tags, a horizontal navigation bar, an image div and a form.
-- The image should be on the left side of the form and atleast 200px by 200px.
+Imagine you are at an event reception desk; when someone arrives to attend, you are charged with checking if a user registered for the event and in which category.
 
-Responsive CSS:
--------------------
-- Beautify your web page using CSS.
-> Using Media Queries:
-    - Make the page responsive so that the image will appear before the form on a mobile device screen.
-    - Make your nav-bar change to vertical orientation on mobile devices.
-    - Make the background color of your web page change per screen size for mobile, tablet and larger displays like computers.
+Given two text files, one containing names of people who registered for the event in the VIP category and the second contains those that signed up for ORDINARY tickets.
 
-What We are looking out for::
-- Correct HTML Document structure, Responsiveness of your design, Project collaboration skills, Efficiently using Tracker   to manage the project.
+Your program should:
+- Read the files, and store the contents in lists.
+- Ask a user to enter one of their names and check through the lists to see
+    > if a user paid for a ticket
+    > if the ticket paid for, is an Ordinary or Vip ticket
+
+Specs:
+> Name your main function registration_checker, its argument/input should be a single name
+> For example; For the name Maria, it should return a Full name, Category i.e Maria Nanfuka, VIP
+> For the name Edison, it should return Not Registered
+> Put your file (reception.py) in an importable folder named reception within the project directory.
+
+** Your Git and Pivotal Tracker usage is of a high priority (edited)
