@@ -4,23 +4,21 @@
 
 This is an app for issuing event tickets.
 
-### Assignment three
+### Getting Started
 ---------------------------
+Clone the project to your computer either by downloading the zip or using git.
 
-Imagine you are at an event reception desk; when someone arrives to attend, you are charged with checking if a user registered for the event and in which category.
+### Features
+---------------------------
+- User can enter a name
+- Returns the full name of that user
+- Returns the category where the user is registered
+- Stores the names of the clients in lists
 
-Given two text files, one containing names of people who registered for the event in the VIP category and the second contains those that signed up for ORDINARY tickets.
+### Built With
+---------------------------
+- Python [https://www.python.org/]
 
-Your program should:
-- Read the files, and store the contents in lists.
-- Ask a user to enter one of their names and check through the lists to see
-    > if a user paid for a ticket
-    > if the ticket paid for, is an Ordinary or Vip ticket
-
-Specs:
-> Name your main function registration_checker, its argument/input should be a single name
-> For example; For the name Maria, it should return a Full name, Category i.e Maria Nanfuka, VIP
-> For the name Edison, it should return Not Registered
-> Put your file (reception.py) in an importable folder named reception within the project directory.
-
-** Your Git and Pivotal Tracker usage is of a high priority (edited)
+### Authors
+---------------------------
+Douglas Kato
