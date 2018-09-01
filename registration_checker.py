@@ -15,7 +15,7 @@ with open('ordinary.txt', 'r') as f:
         names = line.strip()
         ordinary.append(names)
 
-def Checker(name):
+def registration_checker():
     print("Enter your username: ")
     username = input()
 
@@ -28,5 +28,5 @@ def Checker(name):
 
     print('--------------------------------')
 
-if __name__ == "__main__":
-    Checker(name)
+
+registration_checker()
