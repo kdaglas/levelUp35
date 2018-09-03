@@ -59,15 +59,13 @@ def registration_checker():
     # If there is, then return that clients name and catergory
     # If not return user not registered
 
-    for s in vip or ordinary:
+    for s in vip:
         if username.lower() in s.lower():
-            if len(username) > 0:
-	            print(s + "\n VIP")
+            print(s + "\n VIP")
 
     for r in ordinary:
         if username.lower() in r.lower():
-            if len(username) > 0:
-	            print(r + "\n Ordinary")
+	        print(r + "\n Ordinary")
 
     # if s not in username:
     #     print("Client not registered")
