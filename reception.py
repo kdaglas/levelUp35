@@ -56,15 +56,15 @@ def registration_checker():
         if username.lower() in s.lower():
             if len(username) > 0:
 	            print(s + "\n VIP")
-        else:
-            print("Client not registered")
+            
 
     for r in ordinary:
         if username.lower() in r.lower():
             if len(username) > 0:
 	            print(r + "\n Ordinary")
-        else:
-            print("Client not registered")
+
+    if username not in vip or ordinary:
+        print("Client not registered")
 
     print('--------------------------------')
     print('')
