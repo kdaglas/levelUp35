@@ -12,7 +12,7 @@ def the_vip_list():
         data = f.readlines()
         for line in data:
             names = line.rstrip('\n')
-            vip.append({names, 'ORDINARY'})
+            vip.append(names)
         return vip
 
 def the_ordinary_list():
@@ -27,6 +27,9 @@ def the_ordinary_list():
             ordinary.append(names)
         return ordinary
 
+# def registration_checker(name):
+#     return checker(name)
+
 def registration_checker():
 
     ### Search through the vip and ordinary lists
@@ -35,15 +38,33 @@ def registration_checker():
     vip = the_vip_list()
     ordinary = the_ordinary_list()
 
-    print("Enter your username: ")
-    username = input()
+    # print(the_vip_list())
+    # print('--------------------------------')
+    # print(the_ordinary_list())
+    # print('--------------------------------')
 
+    print("Enter the name: ")
+    username = input()
     print('--------------------------------')
-    
-    if username in vip or ordinary:
-        print('User is registered')
-    else:
-        print('User not registered')
+
+    # Loop through the lists,
+    # Compare with the user input
+    # If there is, then return that clients name and catergory
+    # If not return user not registered
+
+    for s in vip:
+        if username.lower() in s.lower():
+            if len(username) > 0:
+	            print(s + "\n VIP")
+        else:
+            print("Client not registered")
+
+    for r in ordinary:
+        if username.lower() in r.lower():
+            if len(username) > 0:
+	            print(r + "\n Ordinary")
+        else:
+            print("Client not registered")
 
     print('--------------------------------')
     print('')
