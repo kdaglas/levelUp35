@@ -4,6 +4,8 @@
 
 This is an app for issuing event tickets to clients who want to attend particular or all events.
 
+Demo app: https://kdaglas.github.io/thatEvent/
+
 ### Getting Started
 
 Clone the project to your computer either by downloading the zip or using git.
